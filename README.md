@@ -1,6 +1,6 @@
-** Instructions to start a private node with balance **
+## Instructions to start a private node with balance
 
-*Starting the node*:
+**_Starting the node_**:
 1. Comment the second line of startTestNet.sh (by default it is commented here anyway)
 2. cd to this directory root and run ./startTestNet.sh in console (cut and paste the commented accounts inside "alloc" to somewhere. having it there throws error at this point).
     2.1 Make sure the data directory path in startTestNet.sh and the data folder (devChain) are same

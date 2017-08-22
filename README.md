@@ -5,11 +5,11 @@
 2. cd to this directory root and run ./startTestNet.sh in console (cut and paste the commented accounts inside "alloc" to somewhere. having it there throws error at this point).
     2.1 Make sure the data directory path in startTestNet.sh and the data folder (devChain) are same
 3. If the genesis block is created successfully, it will say " successfully wrote genesis block" 
-    3.1 Now comment Line 1 and uncomment Line 2 in startTestNet.sh
-    3.2 Run: ./startTestNet.sh
-    3.3 In another terminal, attach to the running geth process using IPC Interprocess communication):
-    3.4 Run: sudo geth attach ipc://<absolute path to devChain folder>/devChain/geth.ipc
-    3.5 Once you are in the geth console, use web3 to create some accounts using : 
+    1. Now comment Line 1 and uncomment Line 2 in startTestNet.sh
+    2. Run: ./startTestNet.sh
+    3. In another terminal, attach to the running geth process using IPC Interprocess communication):
+    4. Run: sudo geth attach ipc://<absolute path to devChain folder>/devChain/geth.ipc
+    5. Once you are in the geth console, use web3 to create some accounts using : 
 			
 		> web3.personal.newAccount()
 
